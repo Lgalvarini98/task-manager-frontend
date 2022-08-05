@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #1a9d6b;
+}
+
+.navbar a,
+.navbar a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.tasksForm {
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  border: 1px solid #175a0e;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5% 40%;
+}
+
+.tasksViewer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  margin: 10px;
+
+  text-align: center;
+  align-items: center;
+}
+
+.taskViewer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #175a0e;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 370px;
+  margin: 10px 0;
+}
+
+.taskViewer h5 {
+  color: #1a9d6b;
+}
+
+.taskViewer p {
+  color: #a57117;
+}
+
+.taskDescription {
+  width: 500px;
+}
